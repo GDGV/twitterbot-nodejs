@@ -1,6 +1,6 @@
 #**GDG New Delhi TwitterBot-NodeJS**  
 
-Follow GDG New Delhi bot here [![Twitter Follow](https://img.shields.io/twitter/follow/gdgndbot.svg?style=social)](https://twitter.com/gdgndbot)
+[![Twitter Follow](https://img.shields.io/twitter/follow/gdgndbot.svg?style=social)](https://twitter.com/gdgndbot)
 
 This code is a fork of the main repo [here](https://github.com/nisrulz/twitterbot-nodejs)
 
