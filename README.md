@@ -1,11 +1,12 @@
-#**TwitterBot-NodeJS**  [![Twitter](https://img.shields.io/badge/Twitter-@nisrulz-blue.svg?style=flat)](http://twitter.com/nisrulz)
+#**GDG New Delhi TwitterBot-NodeJS**  
+
+Follow GDG New Delhi bot here [![Twitter Follow](https://img.shields.io/twitter/follow/gdgndbot.svg?style=social)](https://twitter.com/gdgndbot)
+
+This code is a fork of the main repo [here](https://github.com/nisrulz/twitterbot-nodejs)
 
 Yeah it pretty much does what it says in the title. Its a twitter bot which can post tweets, retweet other tweets and possibly fav tweets.
 
-This is a simple bot , to build which I had to go through a lot of information on the internet possibly because it wasn't updated/consistent. Plus I wanted to learn how build a bot anyhow ;)
-
 Currently active bot using the same code is [GDGND Bot](https://twitter.com/gdgndbot).
-Hopefully it helps some other people who want to build their own bot.
 
 Simple.Easy.Cute (Ok, last one didnot go with the flow..) 
 
