@@ -1,7 +1,7 @@
 {
     "name": "bot",
     "version": "1.0.0",
-    "description": "Twitter Bot - NodeJS",
+    "description": "GDG New Delhi Twitter Bot",
     "author": "Nishant Srivastava <nisrulz@gmail.com>",
     "dependencies": {
         "twit": "*"
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/nisrulz/twitterbot-nodejs.git"
+        "url": "git://github.com/gdgnewdelhi/twitterbot-nodejs.git"
     },
     "analyze": true,
     "license": "Apache-2.0"

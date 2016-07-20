@@ -1,5 +1,4 @@
 // Debug flag
-
 var debug = false;
 
 
@@ -9,8 +8,8 @@ var Twit = require('twit');
 // We need to include our configuration file
 var T = new Twit(require('./config.js'));
 
-// This is the URL of a search for the latest tweets on the #hashtag.
-var hastagSearch = { q: "#hashtag", count: 10, result_type: "recent" };
+// This is the URL of a search for the latest tweets on the '#gdgnd' hashtag.
+var hastagSearch = { q: "#gdgnd", count: 10, result_type: "recent" };
 
 // A user stream
 var stream = T.stream('user');
@@ -46,12 +45,11 @@ function tweetEvent(tweet) {
     var txt = tweet.text;
 
     // Ok, if this was in reply to me
-    // Replace selftwitterhandle with your own twitter handle
     console.log(reply_to, name, txt);
-    if (reply_to === 'selftwitterhandle') {
+    if (reply_to === 'gdgndbot') {
 
         // Get rid of the @ mention
-        txt = txt.replace(/@selftwitterhandle/g, '');
+        txt = txt.replace(/@gdgndbot/g, '');
 
         // Start a reply back to the sender
         var reply = "Hi @" + name + ' ' + ', Thanks for the mention :)';
@@ -62,7 +60,7 @@ function tweetEvent(tweet) {
     }
 }
 
-// This function finds the latest tweet with the #hashtag, and retweets it.
+// This function finds the latest tweet with the #gdgnd hashtag, and retweets it.
 function retweetLatest() {
     T.get('search/tweets', hastagSearch, function(error, data) {
 
