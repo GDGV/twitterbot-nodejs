@@ -1,6 +1,6 @@
 # GDG Cloud Vancouver TwitterBot-NodeJS
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/gdgndbot.svg?style=social)](https://twitter.com/gdgcvbot)
+[![Twitter Follow](https://img.shields.io/twitter/follow/gdgcvbot.svg?style=social)](https://twitter.com/gdgcvbot)
 
 This code is a fork of the main repo [here](https://github.com/nisrulz/twitterbot-nodejs)
 
@@ -28,7 +28,7 @@ npm install
 - Register a Twitter account and also get its "app info".
 > Twitter doesn't allow you to register multiple twitter accounts on the same email address. I recommend you create a brand new email address (perhaps using Gmail) for the Twitter account. Once you register the account to that email address, wait for the confirmation email.
 
-- Now go [here](https://dev.twitter.com/apps/new) and log in as the Twitter account for your bot:
+- Now go [here](https://apps.twitter.com/app/new) and log in as the Twitter account for your bot:
 - Fill up the form and submit.
 - Next once the submission completes you will be taken to a page which has the
   - "Settings" tab : Update details here

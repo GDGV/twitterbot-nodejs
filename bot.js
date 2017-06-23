@@ -73,7 +73,7 @@ function retweetLatest () {
       console.log(tweets[i].text)
     }
     // If our search request to the server had no errors...
-    if (!error) {
+    if (!error && data.statuses.length > 0) {
       // ...then we grab the ID of the tweet we want to retweet...
       var retweetId = data.statuses[0].id_str
       // ...and then we tell Twitter we want to retweet it!

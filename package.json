@@ -1,18 +1,18 @@
 {
-    "name": "bot",
-    "version": "1.0.0",
-    "description": "GDG Cloud Vancouver Twitter Bot",
-    "author": "GDG Cloud Vancouver",
-    "dependencies": {
-        "twit": "2.2.9"
-    },
-    "scripts": {
-        "start": "node bot.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/gdgv/twitterbot-nodejs.git"
-    },
-    "analyze": true,
-    "license": "Apache-2.0"
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "GDG Cloud Vancouver Twitter Bot",
+  "author": "GDG Cloud Vancouver",
+  "dependencies": {
+    "twit": "2.2.9"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gdgv/twitterbot-nodejs.git"
+  },
+  "analyze": true,
+  "license": "Apache-2.0"
 }
